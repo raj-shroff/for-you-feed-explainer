@@ -1,4 +1,4 @@
-# Why this video?
+# Why this video? - An interactive walkthrough
 
 A five-screen, animated classroom walkthrough of how TikTok chooses videos for the For You feed. Built for a community college audience in plain language.
 
