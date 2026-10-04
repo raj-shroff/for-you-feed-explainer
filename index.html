@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A five-step, interactive explanation of how TikTok recommends videos.">
+  <title>Why this video? — How TikTok recommends</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+<div class="app">
+  <header><span class="brand">WHY THIS VIDEO?</span><button id="motion" class="quiet" aria-pressed="false">Motion: on</button></header>
+  <main id="lesson" tabindex="-1"></main>
+  <nav class="navigation" aria-label="Walkthrough">
+    <div class="nav-start"><button id="back">Back</button><button id="replay" class="quiet">Replay step</button></div>
+    <div class="progress"><div id="steps" class="steps" aria-label="Choose a screen"></div><span id="counter"></span></div>
+    <button id="next" class="primary">Let's begin</button>
+  </nav>
+  <div id="announcement" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+</div>
+<noscript><p>This walkthrough needs JavaScript enabled in your browser. No internet connection is needed.</p></noscript>
+</body>
+</html>

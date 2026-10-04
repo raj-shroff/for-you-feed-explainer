@@ -1,0 +1,31 @@
+# Local design drafts, generation prompts, screenshots, and QA notes
+/design/
+/design-qa.md
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Temporary files, logs, and tool caches
+*.log
+/tmp/
+/temp/
+node_modules/
+.cache/
+__pycache__/
+*.py[cod]
+/coverage/
+/playwright-report/
+/test-results/
